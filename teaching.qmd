@@ -1,0 +1,33 @@
+---
+title: "Teaching"
+---
+
+## Units Taught
+
+### First Year Units
+
+- **STAT1250** Business Statistics and Insights
+- **FOSE1025** Scientific Computing
+
+### Second Year Units
+
+- **STAT2173** Introduction to Probability
+- **STAT2371** Statistics
+- **STAT2372** Probability
+
+### Third Year Units
+
+- **STAT3102** Graphics, Multivariate Methods and Data Mining
+
+### Postgraduate Units
+
+- **STAT8123** Statistical Graphics
+- **STAT8310** Statistical Theory
+
+- **STAT2173** — Introduction to Probability
+- **STAT8123** — Statistical Graphics
+
+## Previous Teaching
+
+- **Tutor:** School of Mathematics and Statistics, University of Sydney 
+  (2016–2021)

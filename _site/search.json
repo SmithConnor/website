@@ -2,15 +2,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "website",
+    "title": "Connor Smith",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome to my personal website. I am a Lecturer (Teaching and Leadership) at Macquarie University, passionate about teaching and learning in statistics or anything that can use statistics.\nBrowse my Teaching page to learn more about my courses, teaching philosophy, and resources."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I am a Lecturer (Teaching and Leadership) in the School of Mathematical and Physical Sciences at Macquarie University, with a 70% teaching and 30% leadership role. My research interests include variable selection, stability selection, complex modelling, and statistical graphics."
+  },
+  {
+    "objectID": "about.html#biography",
+    "href": "about.html#biography",
+    "title": "About",
+    "section": "",
+    "text": "I am a Lecturer (Teaching and Leadership) in the School of Mathematical and Physical Sciences at Macquarie University, with a 70% teaching and 30% leadership role. My research interests include variable selection, stability selection, complex modelling, and statistical graphics."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nGraduate Certificate in Education, Macquarie University (2023–2024)\nDoctor of Philosophy in Statistics, University of Sydney (2017–2022)\n\nSupervisors: Professor Samuel Muller and Dr Boris Guennewig\n\nBachelor of Science (Adv.) (Honours Class I), University of Sydney (2013–2016)\n\nSupervisor: Professor Samuel Muller"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: connor.smith@mq.edu.au\nLinkedIn: connor-smith-303728181\nGitHub: SmithConnor"
   }
 ]

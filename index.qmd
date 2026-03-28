@@ -1,7 +1,9 @@
 ---
-title: "website"
+title: "Connor Smith"
 ---
 
-This is a Quarto website.
+Welcome to my personal website. I am a Lecturer (Teaching and Leadership) at Macquarie University, 
+passionate about teaching and learning in statistics or anything that can use statistics.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Browse my [Teaching](teaching.qmd) page to learn more about my courses, 
+teaching philosophy, and resources.

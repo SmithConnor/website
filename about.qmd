@@ -2,4 +2,19 @@
 title: "About"
 ---
 
-About this site
+## Biography
+I am a Lecturer (Teaching and Leadership) in the School of Mathematical and Physical Sciences at Macquarie University, with a 70% teaching and 30% leadership role. 
+
+My research interests include variable selection, stability selection, complex modelling, and statistical graphics.
+
+## Education
+- **Graduate Certificate in Education**, Macquarie University (2023–2024)
+- **Doctor of Philosophy in Statistics**, University of Sydney (2017–2022)
+  - Supervisors: Professor Samuel Muller and Dr Boris Guennewig
+- **Bachelor of Science (Adv.) (Honours Class I)**, University of Sydney (2013–2016)
+  - Supervisor: Professor Samuel Muller
+
+## Contact
+- Email: connor.smith@mq.edu.au
+- LinkedIn: connor-smith-303728181
+- GitHub: SmithConnor
