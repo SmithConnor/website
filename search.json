@@ -1,24 +1,17 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "testimonials.html",
+    "href": "testimonials.html",
+    "title": "Testimonials",
     "section": "",
-    "text": "STAT1250 Business Statistics and Insights\nFOSE1025 Scientific Computing\n\n\n\n\n\nSTAT2173 Introduction to Probability\nSTAT2371 Statistics\nSTAT2372 Probability\n\n\n\n\n\nSTAT3102 Graphics, Multivariate Methods and Data Mining\n\n\n\n\n\nSTAT8123 Statistical Graphics\nSTAT8310 Statistical Theory\nSTAT2173 — Introduction to Probability\nSTAT8123 — Statistical Graphics"
+    "text": "What students and colleagues have to say about my teaching.\n\n“Write a student testimonial here.”\n\nStudent Name, STATXXXX\n\n“Write another testimonial here.”\n\nStudent Name, STATXXXX\n\n“Write a colleague testimonial here.”\n\nColleague Name, School of Mathematical and Physical Sciences, Macquarie University"
   },
   {
-    "objectID": "teaching.html#units-taught",
-    "href": "teaching.html#units-taught",
-    "title": "Teaching",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Connor Smith",
     "section": "",
-    "text": "STAT1250 Business Statistics and Insights\nFOSE1025 Scientific Computing\n\n\n\n\n\nSTAT2173 Introduction to Probability\nSTAT2371 Statistics\nSTAT2372 Probability\n\n\n\n\n\nSTAT3102 Graphics, Multivariate Methods and Data Mining\n\n\n\n\n\nSTAT8123 Statistical Graphics\nSTAT8310 Statistical Theory\nSTAT2173 — Introduction to Probability\nSTAT8123 — Statistical Graphics"
-  },
-  {
-    "objectID": "teaching.html#previous-teaching",
-    "href": "teaching.html#previous-teaching",
-    "title": "Teaching",
-    "section": "Previous Teaching",
-    "text": "Previous Teaching\n\nTutor: School of Mathematics and Statistics, University of Sydney (2016–2021)"
+    "text": "Welcome to my personal website. I am a Lecturer (Teaching and Leadership) at Macquarie University, passionate about teaching and learning in statistics or anything that can use statistics.\nBrowse my Teaching page to learn more about my courses, teaching philosophy, and resources."
   },
   {
     "objectID": "about.html",
@@ -49,10 +42,10 @@
     "text": "Contact\n\nEmail: connor.smith@mq.edu.au\nLinkedIn: connor-smith-303728181\nGitHub: SmithConnor"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Connor Smith",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Welcome to my personal website. I am a Lecturer (Teaching and Leadership) at Macquarie University, passionate about teaching and learning in statistics or anything that can use statistics.\nBrowse my Teaching page to learn more about my courses, teaching philosophy, and resources."
+    "text": "units = [\n  { unit: \"STAT1250\", name: \"Business Statistics and Insights\", role: \"Main UC\", start: 2024.5, end: 2026.5 },\n  { unit: \"FOSE1025\", name: \"Scientific Computing\", role: \"Main UC\", start: 2026, end: 2026.5 },\n  { unit: \"STAT1103\", name: \"Intro to Psych Design & Stats\", role: \"Second UC\", start: 2023, end: 2024.5 },\n  { unit: \"STAT1103\", name: \"Intro to Psych Design & Stats\", role: \"Second UC\", start: 2025.5, end: 2026 },\n  { unit: \"STAT2173\", name: \"Introduction to Probability\", role: \"Main UC\", start: 2023, end: 2023.5 },\n  { unit: \"STAT2173\", name: \"Introduction to Probability\", role: \"Main UC\", start: 2024, end: 2024.5 },\n  { unit: \"STAT2173\", name: \"Introduction to Probability\", role: \"Main UC\", start: 2025, end: 2025.5 },\n  { unit: \"STAT2372\", name: \"Probability\", role: \"Second UC\", start: 2024, end: 2024.5 },\n  { unit: \"STAT2372\", name: \"Probability\", role: \"Second UC\", start: 2025, end: 2025.5 },\n  { unit: \"STAT2371\", name: \"Probability\", role: \"Second UC\", start: 2023.5, end: 2024 },\n  { unit: \"STAT2371\", name: \"Probability\", role: \"Second UC\", start: 2024.5, end: 2025 },\n  { unit: \"STAT2371\", name: \"Probability\", role: \"Main UC\", start: 2025.5, end: 2026 },\n  { unit: \"STAT3102\", name: \"Graphics & Data Mining\", role: \"Second UC\", start: 2023.5, end: 2024 },\n  { unit: \"STAT3102\", name: \"Graphics & Data Mining\", role: \"Second UC\", start: 2024.5, end: 2025 },\n  { unit: \"STAT8123\", name: \"Statistical Graphics\", role: \"Main UC\", start: 2023.5, end: 2024 },\n  { unit: \"STAT8310\", name: \"Statistical Theory\", role: \"Second UC\", start: 2023, end: 2023.5 },\n  { unit: \"STAT8310\", name: \"Statistical Theory\", role: \"Second UC\", start: 2024, end: 2024.5 },\n  { unit: \"STAT8310\", name: \"Statistical Theory\", role: \"Main UC\", start: 2025.5, end: 2026 }\n]\n\nPlot.plot({\n  height: 350,\n  marginLeft: 220,\n  marginRight: 20,\n  x: {\n    domain: [2023, 2027],\n    label: \"Year\",\n    tickFormat: d =&gt; `${d}`\n  },\n  y: {\n    domain: units.map(d =&gt; `${d.unit} — ${d.name}`),\n    label: null\n  },\n  color: {\n    domain: [\"Main UC\", \"Second UC\"],\n    range: [\"#2d1b4e\", \"#009e73\"],\n    legend: true\n  },\n  marks: [\n    Plot.barX(units, {\n      x1: \"start\",\n      x2: \"end\",\n      y: d =&gt; `${d.unit} — ${d.name}`,\n      fill: \"role\",\n      tip: true,\n      title: d =&gt; `${d.unit} — ${d.name}\\nRole: ${d.role}`\n    })\n  ]\n})"
   }
 ]

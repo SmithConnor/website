@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://SmithConnor.github.io/website/teaching.html</loc>
-    <lastmod>2026-03-28T13:35:59.983Z</lastmod>
+    <loc>https://SmithConnor.github.io/website/testimonials.html</loc>
+    <lastmod>2026-03-28T14:00:35.397Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SmithConnor.github.io/website/index.html</loc>
+    <lastmod>2026-03-28T14:01:20.886Z</lastmod>
   </url>
   <url>
     <loc>https://SmithConnor.github.io/website/about.html</loc>
     <lastmod>2026-03-28T13:29:43.336Z</lastmod>
   </url>
   <url>
-    <loc>https://SmithConnor.github.io/website/index.html</loc>
-    <lastmod>2026-03-28T13:29:03.087Z</lastmod>
+    <loc>https://SmithConnor.github.io/website/teaching.html</loc>
+    <lastmod>2026-03-28T14:29:44.733Z</lastmod>
   </url>
 </urlset>

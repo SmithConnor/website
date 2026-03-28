@@ -1,1 +1,107 @@
-/* css styles */
+/* === Colourblind-Friendly Palette ===
+   Primary:    Dark Purple   #2d1b4e
+   Secondary:  Teal          #009e73
+   Accent:     Amber         #e69f00
+   Neutral:    Warm Grey     #f5f3f0
+   Text:       Near Black    #1a1a2e
+   Danger/Alt: Vermillion    #d55e00
+   ================================== */
+
+:root {
+  --purple:     #2d1b4e;
+  --teal:       #009e73;
+  --amber:      #e69f00;
+  --neutral-bg: #f5f3f0;
+  --text-dark:  #1a1a2e;
+  --vermillion: #d55e00;
+
+  --bs-link-color: #2d1b4e;
+  --bs-link-hover-color: #009e73;
+}
+
+/* Body */
+body {
+  color: var(--text-dark);
+  background-color: #ffffff;
+  line-height: 1.8;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--purple);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--purple) !important;
+  border-bottom: 3px solid var(--amber);
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: var(--amber) !important;
+}
+
+/* Content width */
+.content {
+  max-width: 48em;
+  margin: auto;
+}
+
+/* Callout blocks — use teal instead of default */
+.callout-tip {
+  border-left-color: var(--teal) !important;
+}
+
+.callout-tip .callout-header {
+  background-color: rgba(0, 158, 115, 0.1);
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+}
+
+th {
+  background-color: var(--purple);
+  color: #ffffff;
+  padding: 0.6em;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: var(--neutral-bg);
+}
+
+/* Footer */
+.page-footer {
+  background-color: var(--purple);
+  color: #ffffff;
+  padding: 1em;
+}
+
+/* Buttons and links with focus visibility */
+a:focus-visible, button:focus-visible {
+  outline: 3px solid var(--amber);
+  outline-offset: 2px;
+}
+
+/* Testimonial blockquotes */
+blockquote {
+  font-style: italic;
+  border-left: 4px solid var(--purple);
+  padding-left: 1em;
+  margin-left: 0;
+  color: var(--text-dark);
+}
